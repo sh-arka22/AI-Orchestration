@@ -1,0 +1,913 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.squid.energy",
+      "title": "Squid: The grid has a repo now",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "AI plans the study.\nThe solver does the physics.\nAgents changed how engineers build software because code is structured language: versioned, diffable, testable.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.ycombinator.com/companies/squid/jobs/9fYL446-software-engineer",
+      "title": "Software Engineer at Squid | Y Combinator",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Build reliable systems for versioning, collaboration, approvals and auditability.\n* Integrate AI models and agents into practical, human-in-the-loop product workflows.\n* Create benchmarks and evaluation systems for testing AI on real customer tasks.\n* Improve system performance, reliability, security and developer experience.\n* Work directly with customers to understand problems, test solutions and iterate quickly.\n* Use modern AI development tools to prototype, test and ship software.\n\n## What we're looking for\n\nYou don't need to meet every requirement.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://www.squid.energy/security",
+      "title": "Squid security",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Squid operates at the planning layer, not the control layer. It never writes to OT, SCADA or ADMS.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://research.google/pubs/the-tail-at-scale",
+      "title": "Dean and Barroso: The Tail at Scale",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "It is challenging to keep the tail of the latency distribution low for interactive services as the size and complexity of the system scales up or as overall utilization increases.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://raft.github.io",
+      "title": "Raft consensus",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Raft is a consensus algorithm that is designed to be easy to understand.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://www.postgresql.org/docs/current/transaction-iso.html",
+      "title": "PostgreSQL transaction isolation",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "The most strict is Serializable, which is defined by the standard in a paragraph which says that any concurrent execution of a set of Serializable transactions is guaranteed to produce the same effect as running them one at a time in some order.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "This level emulates serial transaction execution for all committed transactions; as if transactions had been executed one after another, serially, rather than concurrently.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs",
+      "title": "AWS: Making retries safe with idempotent APIs",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "At Amazon, our preferred approach is to incorporate a unique caller-provided client request identifier into our API contract.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "An important consideration is that the process that combines recording the idempotent token and all mutating operations related to servicing the request must meet the properties for an atomic, consistent, isolated, and durable (ACID) operation.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "the process that combines recording the idempotent token and all mutating operations related to servicing the request must meet the properties for an atomic, consistent, isolated, and durable (ACID) operation.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/transactional-outbox.html",
+      "title": "AWS: Transactional outbox",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "The transactional outbox pattern resolves the dual write operations issue that occurs in distributed systems when a single operation involves both a database write operation and a message or event notification.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "When the flight table is updated, the outbox table is also updated in the same transaction.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://docs.temporal.io/workflow-execution",
+      "title": "Temporal workflow execution",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "A Replay is the method by which a Workflow Execution resumes making progress.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "title": "Anthropic: Building effective agents",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Agentic systems often trade latency and cost for better task performance, and you should consider when this tradeoff makes sense.\nWhen more complexity is warranted, workflows offer predictability and consistency for well-defined tasks, whereas agents are the better option when flexibility and model-driven decision-making are needed at scale.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "Workflows are systems where LLMs and tools are orchestrated through predefined code paths.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "url": "https://docs.langchain.com/oss/python/langgraph/durable-execution",
+      "title": "LangGraph durable execution",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Checkpointers\npersist a thread\u2019s graph state as checkpoints.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "url": "https://arxiv.org/abs/2309.06180",
+      "title": "PagedAttention / vLLM",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "High throughput serving of large language models (LLMs) requires batching sufficiently many requests at a time.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection",
+      "title": "OWASP prompt injection",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Indirect prompt injections occur when an LLM accepts input from external sources, such as websites or files.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+      "title": "Amazon S3 consistency and storage",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Updates to a single key are atomic. For example, if you make a PUT request to an\n\t\t\texisting key from one thread and perform a GET request on the same key from a second\n\t\t\tthread concurrently, you will get either the old data or the new data, but never partial\n\t\t\tor corrupt data.\nAmazon S3 achieves high availability by replicating data across multiple servers within\n\t\t\tAWS data centers.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "Updates to a single key are atomic.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "url": "https://www.postgresql.org/docs/current/ddl-rowsecurity.html",
+      "title": "PostgreSQL row-level security",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Superusers and roles with the\nBYPASSRLS\nattribute always bypass the row security system when accessing a table.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "Table owners normally bypass row security as well",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "url": "https://arxiv.org/abs/2609.00065",
+      "title": "Scientific Agent Skills methods attribution",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "We present Scientific Agent Skills, an open library of 163 such procedures in 16 areas of practice, including genomics, cheminformatics, medical imaging, study design and scientific communication.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "url": "https://sre.google/sre-book/handling-overload",
+      "title": "Google SRE handling overload",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "CRITICAL_PLUS\nReserved for the most critical requests, those that will result in serious user-visible impact if they fail.\nCRITICAL\nThe default value for requests sent from production jobs.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "If multiple layers retried, we'd have a combinatorial explosion.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "url": "https://lamport.azurewebsites.net/pubs/time-clocks.pdf",
+      "title": "Lamport: Time clocks and ordering",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "The concept of one event happening before another \nin a distributed system is examined, and is shown to \ndefine a partial ordering of the events.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "url": "https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf",
+      "title": "Perspectives on the CAP Theorem",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Consistency (as de\ufb01ned in the CAP Theorem) is a classic safety property: every response sent to a client is correct.\nLiveness: By contrast, an algorithm is live if eventually something good happens.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "In a network subject to communication failures, it is impossible for any web service to implement an atomic read/write shared memory that guarantees a response to every request.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "url": "https://docs.temporal.io/design-patterns/long-running-activity",
+      "title": "Temporal long-running activities and checkpoints",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "You must implement checkpointing logic and state management.\nYou must handle partial reprocessing of the last checkpoint (idempotency).\nYou need to balance heartbeat frequency between responsiveness and overhead.\nHeartbeat details have size limits, so you should avoid large objects. Comparison with alternatives \u200b Approach Progress tracking Resumable Cancellation Complexity Heartbeat Yes Yes Graceful Medium Long Timeout No No Delayed Low Child Workflows Yes Yes Immediate High Local Activity No No N/A Low Best practices \u200b Set heartbeat timeout. Configure to 2-3x the expected heartbeat interval. Heartbeat at regular intervals. Balance between responsiveness (every 10-30 seconds) and overhead. C",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "You must implement checkpointing logic and state management.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "You must handle partial reprocessing of the last checkpoint (idempotency).",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "url": "https://matpower.app/manual/matpower/ACPowerFlow.html",
+      "title": "MATPOWER AC power flow",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "By default, the AC power \ufb02ow solvers simply solve the problem described above,\nignoring any generator limits, branch \ufb02ow limits, voltage magnitude limits, etc. However,\nthere is an option ( pf.enforce _q _lims ) that allows for the generator reactive\npower limits to be respected at the expense of the voltage setpoint. This is done\n                                                                                  \n                                                                                  \nin a rather brute force fashion by adding an outer loop around the AC power\n\ufb02ow solution. If any generator has a violated reactive power limit, its reactive\ninjection is \ufb01xed at the limit, the correspo",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "By default, the AC power \ufb02ow solvers simply solve the problem described above, ignoring any generator limits, branch \ufb02ow limits, voltage magnitude limits, etc.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "Each Newton step involves computing the mismatch",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "title": "Anthropic: Demystifying evals for AI agents",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Each trial should be \u201cisolated\u201d by starting from a clean environment. Unnecessary shared state between runs (leftover files, cached data, resource exhaustion) can cause correlated failures due to infrastructure flakiness rather than agent performance. Shared state can also artificially inflate performance. For example, in some internal evals we observed Claude gaining an unfair advantage on some tasks by examining the git history from previous trials. If multiple distinct trials fail because of the same limitation in the environment (like limited CPU memory), these trials are not independent because they\u2019re affected by the same factor, and the eval results become unreliable for measuring age",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "Each trial should be \u201cisolated\u201d by starting from a clean environment.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "The outcome is the final state in the environment at the end of the trial.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "url": "https://squid.energy",
+      "title": "Squid \u2014 The grid has a repo now",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Models, scenarios and decisions stay connected, so engineers and agents validate, analyse and publish from one governed source.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "AI plans the study. The solver does the physics.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "url": "https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf",
+      "title": "flp",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "every protocol for this problem has the possibility of nontermination, even with only one faulty process.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "url": "https://raft.github.io/raft.pdf",
+      "title": "raft",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "One of our requirements for Raft is that safety must not depend on timing:",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "url": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+      "title": "dynamo",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "To remedy this it does not enforce strict quorum membership and instead it uses a \u201csloppy quorum\u201d",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues-at-least-once-delivery.html",
+      "title": "Amazon SQS at-least-once delivery - Amazon Simple Queue Service",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Design your applications to be idempotent (they should not be affected adversely when processing the same message more than once).",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "url": "https://research.google.com/archive/chubby-osdi06.pdf",
+      "title": "chubby",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "The recipient server is expected to test whether the sequencer is still valid and has the appropriate mode; if not, it should reject the request.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "url": "https://opentelemetry.io/docs/specs/semconv/messaging/messaging-spans",
+      "title": "Semantic conventions for messaging spans | OpenTelemetry",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "For each message it accounts for, the \u201cProcess\u201d or \u201cReceive\u201d span SHOULD link to the message\u2019s creation context.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "url": "https://www.postgresql.org/docs/current/continuous-archiving.html",
+      "title": "PostgreSQL: Documentation: 18: 25.3.\u00a0Continuous Archiving and Point-in-Time Recovery (PITR)",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "you need a continuous sequence of archived WAL files that extends back at least as far as the start time of your backup.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "url": "https://kafka.apache.org/41/design/design",
+      "title": "Design | Apache Kafka",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "When writing to an external system, the limitation is in the need to coordinate the consumer\u2019s position with what is actually stored as output.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "url": "https://parquet.apache.org/docs/overview",
+      "title": "Overview | Parquet",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Apache Parquet is an open source, column-oriented data file format designed for efficient data storage and retrieval.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "url": "https://aws.amazon.com/blogs/architecture/exponential-backoff-and-jitter",
+      "title": "Exponential Backoff And Jitter | AWS Architecture Blog",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "The solution isn\u2019t to remove backoff. It\u2019s to add jitter.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "url": "https://docs.temporal.io/workflow-definition",
+      "title": "Temporal Workflow Definition | Temporal Documentation",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Workflow code must be deterministic to support replay.",
+          "added": "2026-09-23"
+        },
+        {
+          "text": "To handle non-deterministic operations like API calls, LLM/AI invocations, database queries, and other external interactions, put them in Activities.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "url": "https://docs.temporal.io/activity-execution",
+      "title": "Activity Execution | Temporal Documentation",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Activities must heartbeat to receive cancellations from a Temporal Service.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "url": "https://docs.temporal.io/develop/python/failure-detection",
+      "title": "Error handling - Python SDK | Temporal Documentation",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Some failures are permanent and won't resolve through retries.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "url": "https://docs.temporal.io/production-deployment/worker-deployments/worker-versioning",
+      "title": "Worker Versioning | Temporal Documentation",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "For pinned Workflow Types, each execution runs entirely on the Worker Deployment Version where it started.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "url": "https://blog.vllm.ai/2023/06/20/vllm.html",
+      "title": "vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention | vLLM Blog",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "PagedAttention partitions the KV cache of each sequence into blocks, each block containing the keys and values for a fixed number of tokens.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "url": "https://docs.vllm.ai/en/latest/design/prefix_caching",
+      "title": "Automatic Prefix Caching - vLLM",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "cache salts to isolate caches in multi-tenant environments.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "url": "https://genai.owasp.org/llmrisk/llm06-sensitive-information-disclosure",
+      "title": "LLM06:2025 Excessive Agency - OWASP Gen AI Security Project",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Implement authorization in downstream systems rather than relying on an LLM to decide if an action is allowed or not.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "url": "https://petsc.org/release/manual/performance",
+      "title": "Hints for Performance Tuning \u2014 PETSc 3.25.5 documentation",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "only a fraction of the total number of CPU cores is required to saturate the memory channels.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "url": "https://docs.vllm.ai/en/stable/serving/parallelism_scaling",
+      "title": "Parallelism and Scaling - vLLM",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Efficient tensor parallelism requires fast internode communication, preferably through high-speed network adapters such as InfiniBand.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "url": "https://docs.vllm.ai/en/stable/configuration/optimization",
+      "title": "Optimization and Tuning - vLLM",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Chunked prefill allows vLLM to process large prefills in smaller chunks and batch them together with decode requests.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "url": "https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/usage/collectives.html",
+      "title": "NVIDIA NCCL: Collective Operations",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "AllReduce operation performs reductions on data (for example, sum, min, max) across devices and stores the result in the receive buffer of every rank. In a sum allreduce operation between k ranks, each rank will provide an array in of N values, and receive identical results in array out of N values, where out[i] = in0[i]+in1[i]+...+in(k-1)[i]. ... Note: Executing ReduceScatter, followed by AllGather, is equivalent to the AllReduce operation.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "url": "https://arxiv.org/abs/1705.09056",
+      "title": "Lian et al.: Can Decentralized Algorithms Outperform Centralized Algorithms? (D-PSGD)",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "One bottleneck of centralized algorithms lies on high communication cost on the central node. Motivated by this, we ask, can decentralized algorithms be faster than its centralized counterpart? Although decentralized PSGD (D-PSGD) algorithms have been studied by the control community, existing analysis and theory do not show any advantage over centralized PSGD (C-PSGD) algorithms.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "url": "https://arxiv.org/abs/1602.05629",
+      "title": "McMahan et al.: Communication-Efficient Learning of Deep Networks from Decentralized Data (FedAvg)",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Modern mobile devices have access to a wealth of data suitable for learning models... However, this rich data is often privacy sensitive, large in quantity, or both, which may preclude logging to the data center and training there using conventional approaches. We advocate an alternative that leaves the training data distributed on the mobile devices.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "url": "https://arxiv.org/abs/1712.01887",
+      "title": "Lin et al.: Deep Gradient Compression",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Large-scale distributed training requires significant communication bandwidth for gradient exchange that limits the scalability of multi-node training... In this paper, we find 99.9% of the gradient exchange in distributed SGD is redundant, and propose Deep Gradient Compression.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "url": "https://arxiv.org/abs/1812.06162",
+      "title": "McCandlish et al.: An Empirical Model of Large-Batch Training",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "In an increasing number of domains it has been demonstrated that deep learning models can be trained using relatively large batch sizes without sacrificing data efficiency. However the limits of this massive data parallelism seem to differ from domain to domain, ranging from batches of tens of thousands in ImageNet to batches of millions in RL agents that play the game Dota 2.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "url": "https://arxiv.org/abs/1811.06965",
+      "title": "Huang et al.: GPipe \u2014 Pipeline Parallelism",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Scaling up deep neural network capacity has been known as an effective approach to improving model quality for several different machine learning tasks. In many cases, increasing model capacity beyond the memory limit of a single accelerator has required developing special algorithms or infrastructure.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "url": "https://arxiv.org/abs/1806.03377",
+      "title": "Harlap et al.: PipeDream \u2014 Fast and Efficient Pipeline Parallel DNN Training",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Its pipeline parallel computing model avoids the slowdowns faced by data-parallel training when large models and/or limited network bandwidth induce high communication-to-computation ratios. PipeDream reduces communication by up to 95% for large DNNs relative to data-parallel training, and allows perfect overlap of communication and computation.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "url": "https://arxiv.org/abs/2304.11277",
+      "title": "Zhao et al.: PyTorch FSDP \u2014 Experiences on Scaling Fully Sharded Data Parallel",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "It is widely acknowledged that large models have the potential to deliver superior performance across a broad range of domains. Despite the remarkable progress made in the field of machine learning systems research, which has enabled the development and exploration of large models, such abilities remain confined to a small group of advanced users and industry leaders.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "url": "https://arxiv.org/abs/1910.02054",
+      "title": "Rajbhandari et al.: ZeRO \u2014 Memory Optimizations Toward Training Trillion Parameter Models",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Large deep learning models offer significant accuracy gains, but training billions to trillions of parameters is challenging. Existing solutions such as data and model parallelisms exhibit fundamental limitations to fit these models into limited device memory, while obtaining computation, communication and development efficiency.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "url": "https://arxiv.org/abs/1910.06378",
+      "title": "Karimireddy et al.: SCAFFOLD \u2014 Stochastic Controlled Averaging for Federated Learning",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "We obtain tight convergence rates for FedAvg and prove that it suffers from `client-drift' when the data is heterogeneous (non-iid), resulting in unstable and slow convergence. As a solution, we propose a new algorithm (SCAFFOLD) which uses control variates (variance reduction) to correct for the `client-drift' in its local updates.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "url": "https://arxiv.org/abs/1803.11485",
+      "title": "Rashid et al.: QMIX \u2014 Monotonic Value Function Factorisation",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "In many real-world settings, a team of agents must coordinate their behaviour while acting in a decentralised way. At the same time, it is often possible to train the agents in a centralised fashion in a simulated or laboratory setting, where global state information is available and communication constraints are lifted.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "url": "https://arxiv.org/abs/1705.08926",
+      "title": "Foerster et al.: Counterfactual Multi-Agent Policy Gradients (COMA)",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "we propose a new multi-agent actor-critic method called counterfactual multi-agent (COMA) policy gradients. COMA uses a centralised critic to estimate the Q-function and decentralised actors to optimise the agents' policies.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "url": "https://arxiv.org/abs/1706.02275",
+      "title": "Lowe et al.: Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments (MADDPG)",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "We begin by analyzing the difficulty of traditional algorithms in the multi-agent case: Q-learning is challenged by an inherent non-stationarity of the environment, while policy gradient suffers from a variance that increases as the number of agents grows.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "url": "https://arxiv.org/abs/1706.02677",
+      "title": "Goyal et al.: Accurate, Large Minibatch SGD \u2014 Training ImageNet in 1 Hour",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Distributed synchronous SGD offers a potential solution to this problem by dividing SGD minibatches over a pool of parallel workers. Yet to make this scheme efficient, the per-worker workload must be large, which implies nontrivial growth in the SGD minibatch size.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "url": "https://arxiv.org/abs/1912.04977",
+      "title": "Kairouz et al.: Advances and Open Problems in Federated Learning",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Federated learning (FL) is a machine learning setting where many clients (e.g. mobile devices or whole organizations) collaboratively train a model under the orchestration of a central server (e.g. service provider), while keeping the training data decentralized.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "url": "https://arxiv.org/abs/1911.10635",
+      "title": "Zhang, Yang, Basar: Multi-Agent Reinforcement Learning \u2014 A Selective Overview",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Most of the successful RL applications, e.g., the games of Go and Poker, robotics, and autonomous driving, involve the participation of more than one single agent, which naturally fall into the realm of multi-agent RL (MARL), a domain with a relatively long history, and has recently re-emerged due to advances in single-agent RL techniques.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "url": "https://arxiv.org/abs/1803.01498",
+      "title": "Yin et al.: Byzantine-Robust Distributed Learning \u2014 Towards Optimal Statistical Rates",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "In large-scale distributed learning, security issues have become increasingly important. Particularly in a decentralized environment, some computing units may behave abnormally, or even exhibit Byzantine failures -- arbitrary and potentially adversarial behavior.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "url": "https://arxiv.org/abs/2505.13516",
+      "title": "Hou et al.: HALO \u2014 Hierarchical Autonomous Logic-Oriented Orchestration for Multi-Agent LLM Systems",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "existing agentic systems typically rely on predefined agent-role design spaces and static communication structures, limiting their adaptability as well as flexibility in complex interaction environments and leading to subpar performance on highly specialized and expert-level tasks.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "url": "https://arxiv.org/abs/2505.19591",
+      "title": "Dang et al.: Multi-Agent Collaboration via Evolving Orchestration",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "While recent research explores multi-agent collaboration among LLMs, most approaches rely on static organizational structures that struggle to adapt as task complexity and agent numbers grow, resulting in coordination overhead and inefficiencies.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "url": "https://arxiv.org/abs/2507.21105",
+      "title": "Liao et al.: AgentMaster \u2014 A Multi-Agent Conversational Framework Using A2A and MCP Protocols",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "current systems are still facing challenges of inter-agent communication, coordination, and interaction with heterogeneous tools and resources. Most recently, the Model Context Protocol (MCP) by Anthropic and Agent-to-Agent (A2A) communication protocol by Google have been introduced.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "url": "https://arxiv.org/abs/2505.06416",
+      "title": "Lumer et al.: ScaleMCP \u2014 Dynamic and Auto-Synchronizing MCP Tools for LLM Agents",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "existing tool selection frameworks do not integrate MCP servers, instead relying heavily on error-prone manual updates to monolithic local tool repositories, leading to duplication, inconsistencies, and inefficiencies.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
+      "title": "Model Context Protocol: What is MCP?",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems. Using MCP, AI applications like Claude or ChatGPT can connect to data sources (e.g. local files, databases), tools (e.g. search engines, calculators) and workflows (e.g. specialized prompts). Think of MCP like a USB-C port for AI applications.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "url": "https://a2a-protocol.org/latest/topics/what-is-a2a/",
+      "title": "Agent2Agent (A2A) Protocol: What is A2A?",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "A2A: Standardizes communication among agents, across organizations and frameworks. MCP: Connects models to data and external resources. ... A2A complements MCP: it covers a distinct but related part of agent interaction. ... Agents interact without needing to share internal memory, tools, or proprietary logic, ensuring security and preserving intellectual property.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "url": "https://docs.pytorch.org/docs/stable/notes/ddp.html",
+      "title": "PyTorch: Distributed Data Parallel design notes",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "TorchDynamo's DDPOptimizer helps by breaking the forward graph at the logical boundaries of DDP's allreduce buckets during backwards. ... This allows DDP's allreduce hooks to fire in-between sections of backwards, and schedule communications to overlap with compute.",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "url": "local:Scalable_Multi-Agent_Orchestration_for_Federated_and_Distributed_AI_Learning.pdf",
+      "title": "Jonnalagadda, A. K.: Scalable Multi-Agent Orchestration for Federated and Distributed AI Learning, ICDCA 2026 (DOI 10.1109/ICDCA69396.2026.11620350)",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "We propose a Collective Intelligence Optimization (CIO) framework designed to enhance coordination among multi-agent AI systems for scalable distributed learning. The proposed approach leverages decentralized decision-making, adaptive agent collaboration, and dynamic resource allocation to improve overall system efficiency. [Read directly from the source PDF supplied to this repository.]",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "url": "local:2601.13671v1.pdf",
+      "title": "Adimulam, Gupta, Kumar (Skan AI): The Orchestration of Multi-Agent Systems \u2014 Architectures, Protocols, and Enterprise Adoption, arXiv:2601.13671v1 [cs.MA]",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "Another primary contribution of this work is the in-depth technical delineation of two complementary communication protocols - the Model Context Protocol, which standardizes how agents access external tools and contextual data, and the Agent-to-Agent protocol, which governs peer coordination, negotiation, and delegation. [Read directly from the source PDF supplied to this repository.]",
+          "added": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "url": "local:lecture20-slides.pdf",
+      "title": "Cornell CS4787 (Fall 2025), Lecture 20: Distributed Machine Learning and the Parameter Server",
+      "accessed": "2026-09-23",
+      "quotes": [
+        {
+          "text": "The parameter server model answers this question differently by appointing a single machine, the parameter server, the explicit responsibility of maintaining the current value of the parameters. ... But in a distributed setting, there is no shared memory, and communication must be done explicitly. [Read directly from the source PDF supplied to this repository.]",
+          "added": "2026-09-23"
+        }
+      ]
+    }
+  ]
+}

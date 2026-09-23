@@ -1,0 +1,26 @@
+{
+  "guide_sections": 31,
+  "practice_questions": 24,
+  "cited_sources": 70,
+  "all_cited_sources_have_verified_excerpts": true,
+  "guide_fences_balanced": true,
+  "quick_fences_balanced": true,
+  "hypothetical_capacity_labelled": true,
+  "planning_not_control_boundary_present": true,
+  "internal_stack_uncertainty_present": true,
+  "references_present": true,
+  "guide_words": 34993,
+  "numerical_examples_checked": true,
+  "parts": 9,
+  "doc_files": 35,
+  "mermaid_diagrams": 26,
+  "ledger_sources": 75,
+  "all_internal_links_resolve": true,
+  "all_docs_reachable_from_readme": true,
+  "distributed_learning_sections_added": "19-31 plus appendix",
+  "derived_table_recomputation_performed": true,
+  "checks_run": [
+    "scripts/verify_citations.py",
+    "scripts/verify_structure.py"
+  ]
+}

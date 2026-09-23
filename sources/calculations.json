@@ -1,0 +1,21 @@
+{
+  "mm1_mean_seconds": {
+    "50": 0.02,
+    "90": 0.1,
+    "99": 1.0
+  },
+  "fanout_slow_20": 0.18209306240276923,
+  "fanout_slow_100": 0.6339676587267709,
+  "chain_success_20": 0.6676079717550942,
+  "amdahl_20pc_serial_10workers": 3.571428571428571,
+  "amdahl_limit": 5.0,
+  "retry_attempts_5layers": 243,
+  "requests_per_second": 0.3333333333333333,
+  "active_requests_90s": 30.0,
+  "llm_calls_per_min": 120,
+  "tokens_per_min": 684000,
+  "study_jobs_per_second": 4.0,
+  "avg_solver_concurrency": 120.0,
+  "solver_slots_70percent": 172,
+  "max_req_per_min_600ktpm": 17.54385964912281
+}
